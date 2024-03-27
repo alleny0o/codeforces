@@ -22,7 +22,7 @@ int main()
         cnt[target] -= 1;
         if (cnt[target] == 0)
         {
-          cnt.erase(target); // Remove the entry if its count is 0 to keep the map clean
+          cnt.erase(target);
         }
       }
       else
